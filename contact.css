@@ -1,0 +1,104 @@
+.contact-section{
+display: flex;
+justify-content: center;
+gap: 4.39rem;
+margin-top: 8.3rem;
+margin-bottom: 9.4rem;
+}
+.contact-form h2{
+    color: #111113;
+font-family: "Satoshi";
+font-size: 5.59688rem;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.contact-form h2 span{
+    color: #7654FF;
+font-family: "Satoshi";
+font-size: 5.59688rem;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.contact-form{
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 3.87169rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    
+    align-items: flex-start;
+    gap: 1.29056rem;
+}
+.form input{
+    display: flex;
+ width: 35.16806rem;
+ border: 1.032px solid #E0E0E0;
+ height: 3.22644rem;
+padding: 0.77431rem 1.29056rem;
+align-items: center;
+gap: 0.64531rem;
+color: rgba(17, 17, 19, 0.82);
+font-family: "Satoshi";
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.54869rem; /* 137.661% */
+letter-spacing: 0.01125rem;
+}
+.btn-form{
+    background: #7654FF;
+    display: flex;
+width: 35.16806rem;
+height: 3.22644rem;
+padding: 0.77431rem 1.54869rem;
+justify-content: center;
+align-items: center;
+gap: 0.64531rem;
+color: #fff;
+font-family: "Satoshi";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.contact-links{
+    gap: 2.5rem;
+    display: flex;
+    max-width: 100%;
+     
+}
+.contact-link{
+    display: flex;
+    gap: 0.97rem;
+}
+.contact-link p{
+    color: #111113;
+font-family: "Satoshi";
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.29056rem; /* 137.661% */
+letter-spacing: 0.01875rem;
+}
+.contact-link .number{
+    color: #7654FF;
+font-family: "Satoshi";
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.29056rem;
+letter-spacing: 0.01875rem;
+}
+
+.contact-map img{
+    width: 35.16806rem;
+height: 45.16994rem;
+flex-shrink: 0;
+}

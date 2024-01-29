@@ -1,0 +1,39 @@
+.book-container{
+    display: flex;
+max-width: 100%;
+padding: 3rem 8.5rem 6.17631rem 1.4375rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 5.125rem;
+margin-top: 2.5rem;
+margin-bottom: 5.35rem;
+}
+.feature-book{
+    max-width: 100%;
+    
+}.feature-book h3{
+    padding-left: 8.5rem;
+    color: #111113;
+font-family: "Satoshi";
+font-size: 5.59688rem;
+font-style: normal;
+font-weight: 900;
+line-height: 126.225%; /* 7.06463rem */
+letter-spacing: -0.056rem;
+}
+.flex-book{
+    display: flex;
+ 
+padding: 3rem 8.5rem 6.17631rem 8.4375rem;
+ 
+ margin-bottom: 5rem;
+gap: 5.125rem;
+}
+.flex-book img{
+    width: 18.76738rem;
+height: 26.73413rem;
+flex-shrink: 0;
+border-radius: 0.60388rem;
+border: 8px solid #8B6EFF;
+ 
+}

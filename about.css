@@ -1,0 +1,34 @@
+.about-section{
+    margin-left: 8rem;
+}
+.about-us{
+    display: flex;
+    align-items: center;
+    gap: 2.13rem;
+    padding: 2.75rem 0;
+    margin-bottom: 5.3rem;
+}
+.about-right img{
+    width: 35.625rem;
+height: 35.625rem;
+flex-shrink: 0;
+}
+.about-left h3{
+    margin-bottom: 2.38rem;
+    color: #111113;
+font-family: "Satoshi";
+font-size: 5.59688rem;
+font-style: normal;
+font-weight: 900;
+  /* 7.06463rem */
+letter-spacing: -0.056rem;
+}
+.about-left p{
+    color: #111113;
+font-family: "Satoshi";
+font-size: 2.06006rem;
+font-style: normal;
+font-weight: 700;
+ 
+letter-spacing: -0.02063rem;
+}
