@@ -1,5 +1,6 @@
 .about-section{
     margin-left: 8rem;
+    margin-right: 4rem;
 }
 .about-us{
     display: flex;
@@ -31,4 +32,52 @@ font-style: normal;
 font-weight: 700;
  
 letter-spacing: -0.02063rem;
+}
+.hidden{
+    display: none;
+}
+
+
+
+@media (max-width:390px){
+    .about-section{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    .hidden{
+        display: block;
+    }
+    .mob-hidden{
+        display: none;
+    }
+    .about-left h3{
+        color: #111113;
+       
+        font-size: 2.125rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 126.225%; /* 2.68225rem */
+        letter-spacing: -0.02125rem;
+    }
+    .about-us{
+        flex-direction: column;
+        align-items: center;
+       padding-top: 0;
+        margin-bottom: 0;
+    }
+    .about-us img{
+        max-width: 22.0625rem;
+max-height: 20.625rem;
+flex-shrink: 0;
+    }
+    .about-left p{
+        color: #111113;
+text-align: justify;
+ 
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 145.625%; /* 1.45625rem */
+letter-spacing: -0.01rem;
+    }
 }

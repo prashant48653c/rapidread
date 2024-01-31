@@ -197,6 +197,9 @@ max-width: 38.25rem;;
     flex-direction: row;
     justify-content: space-between;
  }
+ .hidden-btn{
+    display: none;
+ }
 
  .info-frame{
     display: flex;
@@ -303,7 +306,7 @@ padding: 2.94rem 0 4.19rem 0;
  .poster{
     background: #EEE9FF;
     
-height: 31.0625rem;
+max-height: 31.0625rem;
 flex-shrink: 0;
 display: flex;
 justify-content: center;
@@ -657,10 +660,22 @@ letter-spacing: -0.02056rem;
 
 /* Mobile Responsiveness  */
 
+  @media (max-width:450px) {
+    html{
+        font-size: 33%;
+    }
+
+    
+}  
+
+
 @media (max-width:390px) {
     html{
         font-size: 100%;
     }
+    .hidden-btn{
+        display: block;
+     }
     .hidden-mob{
         display: none;
     }
@@ -670,6 +685,16 @@ letter-spacing: -0.02056rem;
     }
     .hamburger-menu{
         display: block;
+    }
+    .hero{
+        padding-top: 2.8rem;
+        padding-bottom: 5rem;
+    }
+    .hero-image{
+        padding-top: 0;
+    }
+    .hero-intro p{
+        margin-bottom: 0;
     }
     .hero-intro{
         flex-direction: column;
@@ -700,6 +725,10 @@ letter-spacing: -0.01625rem;
      .info-frame p{
         font-size: 1.6rem;
      }
+     .info-rapid
+     {
+         padding-top: 2.4rem ;
+       }
      .book-grid {
         display: grid;
         
@@ -708,5 +737,372 @@ letter-spacing: -0.01625rem;
         row-gap: 6.8rem;
         
     }
+    .hero-intro p{
+     
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.0125rem;
+    }
+    .hero-intro h1,.hero-intro h1 span{
+ 
+text-align: center;
+ 
+font-size: 2.625rem;
+font-style: normal;
+font-weight: 900;
+line-height: 126.225%; /* 3.31338rem */
+letter-spacing: -0.02625rem;
+    }
+    .hero-intro .para{
     
+text-align: center;
+ 
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.01rem;
+    }
+    .hero-intro{
+        padding-right:   1.31rem;
+        padding-left:   1.31rem;
+
+    }
+    .hero-intro .para{
+        padding-top: 1.3rem;
+    }
+    .hidden-btn{
+        text-align: center;
+        padding-top: 2.85rem;
+    }
+    .hidden-btn .btn{
+   
+        display: inline-flex;
+padding: 0.24838rem 1.02894rem;
+justify-content: center;
+align-items: center;
+color: #FFF;
+text-align: center;
+font-family: "Satoshi";
+font-size: 0.95563rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.00956rem;
+border-radius: 1.31281rem;
+background: #7654FF;
+gap: 0.56769rem;;
+    }
+    .hero-image img{
+        max-width: 13.75rem;
+max-height: 19.58688rem;
+flex-shrink: 0;
+    }
+    .hero-intro .btn{
+        display: none;
+    }
+    .info-rapid .info{
+        text-align: center;
+         max-width: 100%;
+    }
+.info-flex{
+    padding-bottom: 2.8rem;
+}
+    .info-rapid h3{
+       padding-top: 1rem;
+text-align: center;
+ 
+font-size: 2.125rem;
+font-style: normal;
+font-weight: 900;
+line-height: 126.225%; /* 2.68225rem */
+letter-spacing: -0.02125rem;
+    }
+    .info-rapid .info{
+        gap: .9rem;
+        margin-bottom: 2.6rem;
+    }
+    .info-rapid img{
+        width: 4.55119rem;
+height: 4.55119rem;
+flex-shrink: 0;
+    }
+    .info-flex{
+        gap: 3.2rem;
+    }
+    .info-frame{
+        height: 100%;
+        max-height: 100%;
+    }
+    .info-frame h6{
+        max-width: 60%;
+        text-align: left;
+    }
+    .info-rapid p{
+      
+text-align: center;
+ 
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.01rem;
+    }
+.info-rapid{
+    padding: 1rem 1.8rem;
+}
+.info-flex p{
+    text-align: left;
+}
+.book-list{
+    padding-top:0 ;
+    padding: 0 1.9rem;
+    margin-bottom: 0;
+}
+.book-grid{
+    gap: 2.4rem;
+}
+.book-list .view-all{
+    padding-top: 1.42rem;
+    padding-bottom: 4.73rem;
+}
+.book-list .info h6{
+ 
+text-align: center;
+ 
+font-size: 2.125rem;
+font-style: normal;
+font-weight: 900;
+line-height: 126.225%; /* 2.68225rem */
+letter-spacing: -0.02125rem;
+}
+.book-list .info p{
+   
+text-align: center;
+ 
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.01rem;
+}
+
+.book-grid-image img{
+   max-width: 8.84806rem;
+height: 12.60406rem;
+flex-shrink: 0;
+}
+.book-list .view-all{
+    color: #7654FF;
+text-align: center;
+ 
+font-size: 1.04288rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.01044rem;
+}
+.poster-img
+{
+    padding-top: 2rem;
+  position: relative;
+  max-width: 34.8125rem;
+  max-height: 37.3125rem;
+}
+.poster-img img{
+    position: static;
+ 
+   max-width: 13.75rem;
+max-height: 13.75rem;
+flex-shrink: 0;
+}
+.poster{
+    padding: 0 2rem;
+    padding-bottom: 5rem;
+    flex-direction: column;
+ align-items: center;
+ justify-content: center;
+   max-width: 100%;
+    
+}
+.poster-info h6{
+    color: #111113;
+text-align: center;
+ 
+font-size: 2.125rem;
+font-style: normal;
+font-weight: 900;
+line-height: 120.2%; /* 2.55425rem */
+letter-spacing: -0.02125rem;
+}
+.poster-info p{
+    color: #111113;
+text-align: center;
+ 
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.0125rem;
+}
+.poster-info{
+    text-align: center;
+}
+.poster-info button{
+    display: flex;
+width: 12.37106rem;
+height: 2.94294rem;
+padding: 0.41156rem 1.70513rem;
+justify-content: center;
+align-items: center;
+gap: 0.94075rem;
+flex-shrink: 0;
+border-radius: 2.1755rem;
+background: #7654FF;
+color: #FFF;
+text-align: center;
+font-family: "Satoshi";
+font-size: 1.58363rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.01581rem;
+}
+.poster-img{
+    max-width: 100%;
+    text-align: center;
+}
+.btn-exp{
+    max-width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.testimonials{
+    margin-bottom: 2.4rem;
+    padding:  2rem;
+}
+.testimonials .info h6{
+   
+text-align: center;
+ 
+font-size: 2.125rem;
+font-style: normal;
+font-weight: 900;
+line-height: 126.225%; /* 2.68225rem */
+letter-spacing: -0.02125rem;
+}
+.testimonials .info p{
+    color: #111113;
+text-align: center;
+ margin-bottom: 1rem;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.01rem;
+}
+.comment{
+    max-width: 20.33788rem;
+max-height:100%;
+flex-shrink: 0;
+padding: 1.1rem 1.37rem;
+border-radius: 0.35919rem;
+background: #EEE9FF;
+}
+.comments{
+    gap: 1.5rem;
+}
+.profile h5{
+  
+font-size: 0.68038rem;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: -0.00681rem;
+}
+.profile p{
+ 
+font-size: 0.984rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.00981rem;
+}
+.profile svg{
+    width: 2.69406rem;
+height: 0.53881rem;
+flex-shrink: 0;
+}
+
+
+.footer .links{
+    display: none;
+}
+.footer{
+    padding: 1.33rem 2rem;
+    max-width: 100%;
+   align-items: center;
+    display: flex;
+}
+.social-icon{
+     width: 100%;
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+    padding-bottom: 1.14rem;
+}
+.footer .social-icon img{
+    padding-top: 0.37rem;
+    margin: 0;
+    
+}
+.end{
+    color: #FFF;
+text-align: center;
+ margin-top: 0.89rem;
+ padding: 0;
+ margin-bottom: 1.02rem;
+font-size: 0.55644rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.00556rem;
+}
+.footer .social-icon img{
+    width: 3.26694rem;
+height: 0.84788rem;
+flex-shrink: 0;
+}
+hr{
+     width: 100%;
+ padding:0 2.15rem;
+    color: white;
+    margin: 0;
+}
+.web-icon{
+    display: flex;
+    gap: .5rem;
+}
+.footer{
+   padding-bottom: 0;
+   margin-bottom:0 ;
+height: 7.1875rem;
+flex-shrink: 0;
+}
+.footer .web-icon img{
+    width: 5.63094rem;
+height: 1.04656rem;
+flex-shrink: 0;
+}
+.footer .web-icon svg{
+    width: 1.04331rem;
+height: 1.04331rem;
+flex-shrink: 0;
+}
+
+
+
+
 }

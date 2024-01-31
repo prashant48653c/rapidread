@@ -102,3 +102,20 @@ letter-spacing: 0.01875rem;
 height: 45.16994rem;
 flex-shrink: 0;
 }
+
+@media (max-width:440px) {
+    .contact-section{
+       
+        padding: 1rem;
+       max-width: 100%;
+    } 
+    .contact-link img{
+        width: 1.51425rem;
+height: 1.51425rem;
+    }
+   
+    .contact-links{
+        width: 100%;
+        justify-content: center;
+    }
+}
