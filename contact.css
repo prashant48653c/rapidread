@@ -1,121 +1,232 @@
-.contact-section{
-display: flex;
-justify-content: center;
-gap: 4.39rem;
-margin-top: 8.3rem;
-margin-bottom: 9.4rem;
+.contact-section {
+    display: flex;
+    justify-content: center;
+    gap: 4.39rem;
+    margin-top: 8.3rem;
+    margin-bottom: 9.4rem;
 }
-.contact-form h2{
+
+.contact-form h2 {
     color: #111113;
-font-family: "Satoshi";
-font-size: 5.59688rem;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
+    font-family: "Satoshi";
+    font-size: 5.59688rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 }
-.contact-form h2 span{
+
+.contact-form h2 span {
     color: #7654FF;
-font-family: "Satoshi";
-font-size: 5.59688rem;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
+    font-family: "Satoshi";
+    font-size: 5.59688rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 }
-.contact-form{
+
+.contact-form {
     display: inline-flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 3.87169rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.87169rem;
 }
-.form{
+
+.form {
     display: flex;
     flex-direction: column;
     display: flex;
-    
+
     align-items: flex-start;
     gap: 1.29056rem;
 }
-.form input{
+
+.form input {
     display: flex;
- width: 35.16806rem;
- border: 1.032px solid #E0E0E0;
- height: 3.22644rem;
-padding: 0.77431rem 1.29056rem;
-align-items: center;
-gap: 0.64531rem;
-color: rgba(17, 17, 19, 0.82);
-font-family: "Satoshi";
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 400;
-line-height: 1.54869rem; /* 137.661% */
-letter-spacing: 0.01125rem;
+    width: 35.16806rem;
+    border: 1.032px solid #E0E0E0;
+    height: 3.22644rem;
+    padding: 0.77431rem 1.29056rem;
+    align-items: center;
+    gap: 0.64531rem;
+    color: rgba(17, 17, 19, 0.82);
+    font-family: "Satoshi";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.54869rem;
+    /* 137.661% */
+    letter-spacing: 0.01125rem;
 }
-.btn-form{
+
+.btn-form {
     background: #7654FF;
     display: flex;
-width: 35.16806rem;
-height: 3.22644rem;
-padding: 0.77431rem 1.54869rem;
-justify-content: center;
-align-items: center;
-gap: 0.64531rem;
-color: #fff;
-font-family: "Satoshi";
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
+    width: 35.16806rem;
+    height: 3.22644rem;
+    padding: 0.77431rem 1.54869rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.64531rem;
+    color: #fff;
+    font-family: "Satoshi";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
 }
-.contact-links{
+
+.contact-links {
     gap: 2.5rem;
     display: flex;
     max-width: 100%;
-     
+
 }
-.contact-link{
+
+.contact-link {
     display: flex;
     gap: 0.97rem;
 }
-.contact-link p{
+
+.contact-link p {
     color: #111113;
-font-family: "Satoshi";
-font-size: 0.9375rem;
-font-style: normal;
-font-weight: 500;
-line-height: 1.29056rem; /* 137.661% */
-letter-spacing: 0.01875rem;
-}
-.contact-link .number{
-    color: #7654FF;
-font-family: "Satoshi";
-font-size: 0.9375rem;
-font-style: normal;
-font-weight: 400;
-line-height: 1.29056rem;
-letter-spacing: 0.01875rem;
+    font-family: "Satoshi";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.29056rem;
+    /* 137.661% */
+    letter-spacing: 0.01875rem;
 }
 
-.contact-map img{
+.contact-link .number {
+    color: #7654FF;
+    font-family: "Satoshi";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.29056rem;
+    letter-spacing: 0.01875rem;
+}
+
+.contact-map img {
     width: 35.16806rem;
-height: 45.16994rem;
-flex-shrink: 0;
+    height: 45.16994rem;
+    flex-shrink: 0;
 }
 
 @media (max-width:440px) {
-    .contact-section{
-       
+    .contact-section {
+
         padding: 1rem;
-       max-width: 100%;
-    } 
-    .contact-link img{
-        width: 1.51425rem;
-height: 1.51425rem;
+        max-width: 100%;
     }
-   
-    .contact-links{
+
+    .contact-link img {
+        width: 1.51425rem;
+        height: 1.51425rem;
+    }
+
+    .contact-links {
+       
         width: 100%;
         justify-content: center;
+    }
+}
+
+
+@media (max-width:390px) {
+    .contact-section {
+        flex-direction: column;
+        align-items: center;
+        padding: 1.31rem;
+        max-width: 100%;
+    }
+    .contact-links{
+        padding: 1.31rem;
+        max-width: 100%;
+    
+    }
+    .contact-link{
+        align-items: center;
+    }
+    
+
+    .form input{
+        display: flex;
+        max-width: 21.6875rem;
+        height: 1.98969rem;
+        padding: 0.4775rem 0.79588rem;
+        align-items: center;
+        gap: 0.39794rem;
+        border: 0.637px solid #E0E0E0;
+    }
+    .contact-form{
+        max-width: 100%;
+    }
+    .form{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-map{
+        max-width: 100%;
+    }
+    .contact-map img{
+        width: 20.6875rem;
+height: 27.8555rem;
+flex-shrink: 0;
+    }
+    .contact-form h2 span{
+        color: #7654FF; 
+font-size: 2.14888rem;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+    }
+    .contact-form h2 {
+      
+        color: #111113;
+ 
+font-size: 2.14888rem;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+    }
+.contact-link p{
+    font-size: 0.57813rem; 
+}
+.contact-link .number{
+    font-size: 0.57813rem; 
+}
+
+}
+
+
+@media (max-width:380px) {
+    .contact-links{
+        padding: 1.31rem;
+        max-width: 100%;
+    gap: .7rem;
+    }
+    .contact-map img{
+        width: 17.6875rem;
+height: 24.8555rem;
+flex-shrink: 0;
+    }
+    .form{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .form input{
+        display: flex;
+        max-width: 18.6875rem;
+        height: 1.98969rem;
+        padding: 0.4775rem 0.79588rem;
+        align-items: center;
+        gap: 0.39794rem;
+        border: 0.637px solid #E0E0E0;
     }
 }

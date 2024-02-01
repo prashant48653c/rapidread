@@ -190,3 +190,64 @@ margin-bottom: 5.45rem;
 .read-next{
     margin-bottom: 12.3rem;
 }
+
+@media (max-width:390px) {
+    .summary-section{
+        margin-bottom: 2.7rem;
+    }
+    .flex-summary{
+        gap: 2rem;
+        flex-direction: column;
+    }
+    .summary-img img{
+        position: static;
+        width: 11.10425rem;
+height: 15.818rem;
+border-radius: 0.35731rem;
+border: 4px solid #8B6EFF;
+    }
+    .book-name h6{
+        color: #111113;
+ text-align: center;
+font-size: 1.031rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.01031rem;
+    }
+    .summary-img{
+        position: static;
+       display: flex;
+       max-width: 100%;
+        justify-content: center;
+    }
+    .summary-section{
+        padding-left: 0;
+    }
+    .flex-summary{
+
+        text-align: center;
+       padding-left: 0;
+    }
+    .book-name h3{
+     
+        color: #111113;
+        text-align: center;
+       
+        font-size: 2.01463rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 126.225%; /* 2.543rem */
+        letter-spacing: -0.02013rem;
+    }
+    .summary-detail ul{
+       
+    }
+  .summary-detail ul li{
+    
+        font-size: 1.48575rem;
+font-style: normal;
+font-weight: 500; 
+    }
+
+}

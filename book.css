@@ -37,3 +37,32 @@ border-radius: 0.60388rem;
 border: 8px solid #8B6EFF;
  
 }
+
+@media (max-width:390px) {
+    .feature-book h3{
+ padding: 2rem;
+font-size: 2.0495rem;
+font-style: normal;
+font-weight: 900;
+line-height: 126.225%; /* 2.58694rem */
+letter-spacing: -0.0205rem;
+    }
+    .flex-book{
+        align-items: center;
+        display: flex;
+    flex-direction: column;
+     max-width: 100%;
+     border: 1px solid blue;
+     margin-bottom: 5rem;
+    gap: 5.125rem;
+    }
+    .btn-flexx{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .feature-book{
+        margin-top: 0;
+        gap: 2rem;
+    }
+}
