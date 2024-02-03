@@ -732,45 +732,30 @@ letter-spacing: -0.02056rem;
     .hamburger-menu{
         display: block;
     }
+     
     .hamburger-cross {
-        display: none;
+        display: none; /* Initially hide the cross icon */
+         
     }
-    /* Hide the mob-nav initially */
-    .mob-nav {
+
+    /* Show the hamburger menu icon when the checkbox is checked */
+     
+    input[type='checkbox']:not(:checked)+.hamburger-menu {
         display: none;
     }
     
-    /* Hamburger menu icon */
-    .hamburger-menu {
+    /* Show the hamburger cross icon when the checkbox is checked */
+    input[type="checkbox"]:checked ~ .nav-btns .hamburger-cross {
         display: block;
     }
-    
-    /* Hamburger cross icon */
-    .hamburger-cross {
-        display: none;
-    }
-    
+
     /* Hide the mobile nav when input is checked */
     input[type="checkbox"]:checked ~ .mob-nav {
         display: block;
     }
+   
     
-    /* Hide the hamburger menu and show the cross when input is checked */
-    input[type="checkbox"]:checked ~ .nav-btns .hamburger-menu {
-        display: none;
-    }
-    input[type="checkbox"]:checked ~ .nav-btns .hamburger-cross {
-        display: block;
-    }
-    
-    
-    /* Styling for the mobile navigation */
-    .mob-nav {
-        /* Your styling for the mobile navigation */
-    }
-     
- 
-
+  
    
   
 /* //////////////////////////////     */
