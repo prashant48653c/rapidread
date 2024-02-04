@@ -18,6 +18,9 @@ body{
 height: 100vh;
 position: relative;
 }
+button{
+    cursor: pointer;
+}
 .mob-nav {
     display: none;
 }
@@ -469,14 +472,18 @@ flex-direction: column;
   }
 
   .footer .social-icon img{
-    width: 12.0625rem;
-height: 3.11875rem;
+    width: 2rem;
+height: 2rem;
 margin-top: 1.57rem;
 flex-shrink: 0;
   }
 .footer .web-icon{
     display: flex;
     gap: 1.11rem;
+}
+.footer .social-icon{
+    display: flex;
+    gap: 1rem;
 }
   .footer hr{
     max-width: 74.1875rem;
@@ -609,6 +616,11 @@ letter-spacing: -0.02056rem;
         padding: 2.66rem 3.48rem 2.54rem 2rem;
        
     
+      }
+      .book-grid{
+        row-gap: 1.8rem;
+        grid-template-columns: repeat(2, 1fr); 
+
       }
       svg{
         width: 10rem;
