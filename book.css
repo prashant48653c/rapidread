@@ -6,9 +6,9 @@ max-width: 100%;
 flex-direction: column;
 
 gap: 5.125rem;
-margin-top: 2.5rem;
+margin-top: 8.5rem;
 margin-bottom: 5.35rem;
-border: 1px solid green;
+ 
     
 }.feature-book h3{
     padding-left: 7rem;
@@ -25,7 +25,7 @@ letter-spacing: -0.056rem;
     display: flex;
  justify-content: center;
  max-width: 100%;
- border: 1px solid blue;
+ 
  margin-bottom: 5rem;
 gap: 5.125rem;
 }
@@ -34,7 +34,7 @@ gap: 5.125rem;
 height: 26.73413rem;
 flex-shrink: 0;
 border-radius: 0.60388rem;
-border: 8px solid #8B6EFF;
+border: .5rem solid #8B6EFF;
  
 }
 
@@ -52,7 +52,7 @@ letter-spacing: -0.0205rem;
         display: flex;
     flex-direction: column;
      max-width: 100%;
-     border: 1px solid blue;
+     
      margin-bottom: 5rem;
     gap: 5.125rem;
     }

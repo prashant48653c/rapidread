@@ -72,7 +72,7 @@ letter-spacing: -0.01669rem;
 
  
 .hero{
-    border: 1px solid greenyellow;
+    
     display: flex;
     justify-content: center;
     
@@ -211,10 +211,11 @@ max-width: 38.25rem;;
 width: 18.3125rem;
 height: 18.66619rem;
 flex-direction: column;
-justify-content: center;
+justify-content: flex-start;
 align-items: flex-start;
 gap: 1.12263rem;
 flex-shrink: 0;
+ 
  }
  .info-frame h6{
     color: #111113;
@@ -222,6 +223,7 @@ font-family: "Satoshi";
 font-size: 2.09138rem;
 font-style: normal;
 font-weight: 900;
+text-align: left;
 line-height: 126.225%; /* 2.63988rem */
 letter-spacing: -0.02094rem;
  }
@@ -243,7 +245,7 @@ letter-spacing: -0.01169rem;
   padding-top: 4.19rem;
   display: flex;
   flex-direction: column;
-   border: 2px solid green;
+  
    margin-bottom: 5.31rem;
  }
 
@@ -782,7 +784,7 @@ letter-spacing: -0.02056rem;
     }
     .info-flex{
         display: flex;
-       border: 1px solid greenyellow;
+      
        
         flex-direction: column;
        align-items: flex-start;
