@@ -61,8 +61,8 @@
 .btn-form {
     background: #7654FF;
     display: flex;
-    width: 35.16806rem;
-    height: 3.22644rem;
+    max-width: 100%;
+    max-height: fit-content;
     padding: 0.77431rem 1.54869rem;
     justify-content: center;
     align-items: center;
@@ -135,8 +135,10 @@
 }
 
 
-@media (max-width:390px) {
+@media (max-width:450px) {
+
     .contact-section {
+      
         flex-direction: column;
         align-items: center;
         padding: 1.31rem;
@@ -144,11 +146,19 @@
     }
     .contact-links{
         padding: 1.31rem;
-        max-width: 100%;
+         width: 100%;
     
     }
+    .form{
+        width: 100%;
+        padding: 0%;
+        align-items: flex-start;
+    }
+    .form-input{
+        width: 100%;
+    }
     .contact-link{
-        align-items: center;
+        align-items: flex-start;
     }
     
 

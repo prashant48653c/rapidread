@@ -15,26 +15,42 @@
 
 
 
+    <input type="checkbox" id="toggle-menu" style="display: none;">
     <nav class="nav">
         <div class="logo">
-        <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none">
-        <circle cx="25.7321" cy="26.0007" r="25.7321" fill="#A18AFF"/>
-        <path d="M38.6281 14.5782C35.8371 14.7366 30.29 15.3131 26.8655 17.4093C26.6292 17.554 26.4952 17.8112 26.4952 18.0801V36.6116C26.4952 37.1998 27.1385 37.5716 27.6809 37.2986C31.2041 35.5253 36.2996 35.0415 38.819 34.9091C39.6792 34.8637 40.3479 34.1742 40.3479 33.3476V16.1417C40.3484 15.2398 39.5662 14.5252 38.6281 14.5782ZM24.4958 17.4093C21.0718 15.3131 15.5246 14.7371 12.7337 14.5782C11.7956 14.5252 11.0133 15.2398 11.0133 16.1417V33.3481C11.0133 34.1752 11.682 34.8647 12.5422 34.9096C15.0627 35.042 20.1607 35.5263 23.684 37.3007C24.2248 37.5732 24.866 37.2019 24.866 36.6152V18.0709C24.866 17.8015 24.7326 17.5545 24.4958 17.4093Z" fill="white"/>
-        </svg>
-        <img src="/assets/logo.svg" alt="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none">
+                <circle cx="25.7321" cy="26.0007" r="25.7321" fill="#A18AFF"/>
+                <path d="M38.6281 14.5782C35.8371 14.7366 30.29 15.3131 26.8655 17.4093C26.6292 17.554 26.4952 17.8112 26.4952 18.0801V36.6116C26.4952 37.1998 27.1385 37.5716 27.6809 37.2986C31.2041 35.5253 36.2996 35.0415 38.819 34.9091C39.6792 34.8637 40.3479 34.1742 40.3479 33.3476V16.1417C40.3484 15.2398 39.5662 14.5252 38.6281 14.5782ZM24.4958 17.4093C21.0718 15.3131 15.5246 14.7371 12.7337 14.5782C11.7956 14.5252 11.0133 15.2398 11.0133 16.1417V33.3481C11.0133 34.1752 11.682 34.8647 12.5422 34.9096C15.0627 35.042 20.1607 35.5263 23.684 37.3007C24.2248 37.5732 24.866 37.2019 24.866 36.6152V18.0709C24.866 17.8015 24.7326 17.5545 24.4958 17.4093Z" fill="white"/>
+            </svg>
+            <img src="/assets/logo.svg" alt="">
         </div>
-        
         <div class="nav-btns">
-        <a class="hidden-mob" href="/book.html">Top books</a>
-        <a class="hidden-mob" href="/contact.html">Contact us</a>
-        <a class="hidden-mob" href="/about.html">About us</a>
-        
-        <img src="/assets/call.svg" class="hamburger-menu" alt="">
-        <img src="/assets/call.svg" class="hamburger-cross" alt="">
-        
+            <a class="hidden-mob" href="/book.html">Top books</a>
+            <a class="hidden-mob" href="/contact.html">Contact us</a>
+            <a class="hidden-mob" href="/about.html">About us</a>
+            
+            <!-- Hamburger menu icon -->
+            <label for="toggle-menu" class="hamburger-menu">
+                <img src="/assets/menu.png" alt="menu">
+            </label>
+            
+            <!-- Hamburger cross icon -->
+            <label for="toggle-menu" class="hamburger-cross">
+                <img src="assets/close.svg" alt="cross">
+            </label>
+            
         </div>
-        </nav>
-
+    </nav>
+    
+    <!-- Mobile navigation -->
+    <div class="mob-nav">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/book.html">Top Books</a></li>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/contact.html">Contact Us</a></li>
+        </ul>
+    </div>
 
 
 <section class="contact-section">
@@ -46,7 +62,10 @@
 <input placeholder="Name"  type="text" name="name" id="">
 <input placeholder="Name"  type="text" name="name" id="">
 <input placeholder="Name"  type="text" name="name" id="">
-<input class="btn-form" type="submit" value="SEND">
+ <div>
+    <button class="btn-form">SEND</button>
+
+ </div>
 </form>
 <div class="contact-links">
 

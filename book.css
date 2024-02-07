@@ -2,11 +2,11 @@
 .feature-book{
     display: flex;
 max-width: 100%;
-
+ 
 flex-direction: column;
 
 gap: 5.125rem;
-margin-top: 8.5rem;
+
 margin-bottom: 5.35rem;
  
     
@@ -38,7 +38,7 @@ border: .5rem solid #8B6EFF;
  
 }
 
-@media (max-width:390px) {
+@media (max-width:450px) {
     .feature-book h3{
  padding: 2rem;
 font-size: 2.0495rem;
@@ -62,7 +62,7 @@ letter-spacing: -0.0205rem;
         text-align: center;
     }
     .feature-book{
-        margin-top: 0;
+        margin-top: 8rem;
         gap: 2rem;
     }
 }

@@ -39,8 +39,9 @@ letter-spacing: -0.02063rem;
 
 
 
-@media (max-width:390px){
+@media (max-width:450px){
     .about-section{
+        margin-top: 8rem;
         margin-left: 1.5rem;
         margin-right: 1.5rem;
     }
