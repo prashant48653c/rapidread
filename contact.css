@@ -61,12 +61,13 @@
 .btn-form {
     background: #7654FF;
     display: flex;
-    max-width: 100%;
-    max-height: fit-content;
+    
+    width: 100%;
     padding: 0.77431rem 1.54869rem;
     justify-content: center;
     align-items: center;
     gap: 0.64531rem;
+    border-radius: .5rem;
     color: #fff;
     font-family: "Satoshi";
     font-size: 1.5rem;
@@ -115,17 +116,25 @@
     flex-shrink: 0;
 }
 
+@media (max-width:800px) {
+    .contact-link img {
+         width: 1.5425rem;
+         height: 1.5425rem;
+    }
+}
+
 @media (max-width:440px) {
     .contact-section {
 
         padding: 1rem;
         max-width: 100%;
     }
-
-    .contact-link img {
-        width: 1.51425rem;
-        height: 1.51425rem;
+    .btn-form{
+        padding: .7rem;
+        font-size: .8rem;
     }
+
+    
 
     .contact-links {
        
@@ -150,12 +159,19 @@
     
     }
     .form{
+        padding: 0;
         width: 100%;
-        padding: 0%;
+        display: flex;
+        
+        justify-content: flex-start;
         align-items: flex-start;
+    }
+    .form input{
+        padding: 2rem .5rem;
     }
     .form-input{
         width: 100%;
+     
     }
     .contact-link{
         align-items: flex-start;
@@ -228,7 +244,7 @@ flex-shrink: 0;
     .form{
         display: flex;
         width: 100%;
-        justify-content: center;
+        
     }
     .form input{
         display: flex;
