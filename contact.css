@@ -61,7 +61,8 @@
 .btn-form {
     background: #7654FF;
     display: flex;
-    
+    outline: none;
+    border: none;
     width: 100%;
     padding: 0.77431rem 1.54869rem;
     justify-content: center;
