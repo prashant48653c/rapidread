@@ -87,7 +87,9 @@ background-color: #8B6EFF;
     font-weight: 700;
     font-size: 1rem;
 }
- 
+ button{
+    outline: none;
+ }
 .hero{
   
     display: flex;
@@ -148,6 +150,7 @@ padding: 0.53394rem 2.21206rem;
 justify-content: center;
 align-items: center;
 gap: 1.22044rem;
+
 border-radius: 2.82231rem;
 background: #7654FF;
 color: #FFF;
