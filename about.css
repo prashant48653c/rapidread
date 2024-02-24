@@ -1,5 +1,8 @@
 .about-section{
-    margin-left: 8rem;
+    margin-left: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-right: 4rem;
 }
 .about-us{
@@ -36,6 +39,9 @@ letter-spacing: -0.02063rem;
 .hidden{
     display: none;
 }
+.para-box{
+    max-width: 35rem;
+}
 
 
 
@@ -44,6 +50,9 @@ letter-spacing: -0.02063rem;
         margin-top: 8rem;
         margin-left: 1.5rem;
         margin-right: 1.5rem;
+    }
+    .para-box{
+        width: fit-content;
     }
     .hidden{
         display: block;
